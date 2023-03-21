@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title> <!-- Sets the title -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Sets the 'awesome cdnj' font -->
+    <link rel="stylesheet" href="main.css"> <!-- Connects the .css file-->
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav">
+            <h2><i class="fas fa-adjust"></i>To-Do List</h2> <!--Makes a header that says To-Do List-->
+            <div class="user-input"> <input id="input" type="text"> <!--<<<the 'search bar'-->
+                <!--the submit button >>>--> <button onclick="addItem()">Submit</button></div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="to-do-items">
+
+        </div>
+    </div>
+
+    <script src="main.js"></script> <!--Connects the javascript file-->
+</body>
+
+</html>
